@@ -1,2 +1,2 @@
 # jeopardy-game
-Jeopardy game
+Jeopardy Game by CoreChangeTech.
