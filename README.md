@@ -2,16 +2,24 @@
 
 This game is built on [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Requirements
+1. nvm && node (https://heynode.com/tutorial/install-nodejs-locally-nvm/)
+2. yarn (https://classic.yarnpkg.com/lang/en/docs/install/)
+
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
+git clone git@github.com:CoreChangeTech/jeopardy-game.git
+# then
+cd jeopardy-game
+# then
+nvm use
+# then
+yarn
+# then
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -35,8 +43,9 @@ Once you are able to run the game locally, complete the following tasks. Each ta
 2. Replace the branding colors to colors of your choice.
 3. When a team name is added, at the moment it is not possible to make any changes. Add a link to edit the team name, and allow the user to change the name.
 4. Add a link to remove a team, allow the user to remove a team.
-5. At the moment, questions are loaded from a static json file. NextJS has functionality to build backend functionality that can be used as APIs for content (https://nextjs.org/docs/api-routes/introduction). Use such a route to mock the questions.
+5. At the moment, questions are loaded from a static json file. NextJS has functionality to build backend functionality that can be used as APIs for content (https://nextjs.org/docs/api-routes/introduction).
 
-  5.1 Update the mocked questions by adding a category.
+  5.1 Use such a route described above to to mock the questions, so they appear to be loaded from an API.
+  5.2 Update the mocked questions by adding a category.
 
-  5.2 Update the mocked questions by removing a category.
+  5.3 Update the mocked questions by removing a category.
